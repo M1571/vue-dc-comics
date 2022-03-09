@@ -36,6 +36,8 @@ export default {
 
 <style lang="scss">
 
+@import './assets/scss/mixins.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +50,7 @@ img {
 
 a {
   text-decoration: none; 
+  color: currentColor;
 }
 
 ol, ul {
@@ -58,6 +61,10 @@ ol, ul {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  @include container;
 }
 
 </style>

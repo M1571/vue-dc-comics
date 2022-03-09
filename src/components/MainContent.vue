@@ -4,18 +4,29 @@
 <template>
 
     <main>
+
+        <!-- ------------------------------- -->
+
         <section id="content-wrapper">
-            contenuto
+            <div class="container">
+                sasas
+            </div>
         </section>
+
+        <!-- ------------------------------- -->
+
         <section id="icons-wrapper">
-            <ul>
-                <li>DIGITAL COMICS</li>
-                <li>DC MERCHANDISE</li>
-                <li>SUBSCRIPTION</li>
-                <li>COMIC SHOP LOCATOR</li>
-                <li>DC POWER VISA</li>
-            </ul>
+            <div class="container">
+                <ul>
+                    <li>DIGITAL COMICS</li>
+                    <li>DC MERCHANDISE</li>
+                    <li>SUBSCRIPTION</li>
+                    <li>COMIC SHOP LOCATOR</li>
+                    <li>DC POWER VISA</li>
+                </ul>
+            </div>
         </section>
+
     </main>
 
 </template>
@@ -40,6 +51,8 @@ export default {
     background-color: #1C1C1C;
     color: white;
 }
+
+/* ------------------------------- */
 
 #icons-wrapper {
     background-color: #0282F9;

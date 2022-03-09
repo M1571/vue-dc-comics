@@ -4,6 +4,9 @@
 <template>
 
   <footer class="footer">
+
+      <!-- ------------------------------- -->
+
       <section class="footer-main">
           <ul>
               <li>DC COMICS</li>
@@ -11,6 +14,9 @@
               <li>SITES</li>
           </ul>
       </section>
+
+      <!-- ------------------------------- -->
+
       <section class="footer-bottom">
           <button>
               SIGN-UP NOW!
@@ -26,6 +32,9 @@
               </ul>
           </div>
       </section>
+
+      <!-- ------------------------------- -->
+
   </footer>
 
 </template>
@@ -53,6 +62,8 @@ export default {
     .footer-main {
         background: url('../assets/img/footer-bg.jpg');
     }
+
+    // -------------------------------
 
     .footer-bottom {
         background-color: #303030;
