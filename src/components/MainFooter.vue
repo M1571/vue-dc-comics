@@ -87,32 +87,32 @@ export default {
 @import '../assets/scss/mixins.scss';
 
 .footer {
-
+    // border: 5px solid red;
     color: white;
-
+                    
     .footer-main {
+        border: 5px solid rgb(255, 145, 0);
         background: url('../assets/img/footer-bg.jpg');
         padding: 40px 0;
+    }
 
-        .container {
-            display: flex;
+    .container {
+        border: 5px solid rgb(179, 255, 0);
+        display: flex;
+    }
 
-            .col {
-                width: calc(100% / 9);
+    .col {
+        border: 5px solid rgb(17, 0, 255);
+        width: calc(100% / 9);
+    }
 
-                col-list {
-                    @include widget;
+    .col-list {
+        border: 5px solid rgb(255, 0, 0);
+        @include widget;
+    }
 
-                    .list_title {
-                        color: white;
-                    }
-
-                    li {
-                        color: #959595;
-                    }
-                }
-            }
-        }
+    li {
+        color: #959595;
     }
 
     // -------------------------------

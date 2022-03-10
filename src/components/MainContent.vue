@@ -50,6 +50,7 @@ export default {
 #content-wrapper {
     background-color: #1C1C1C;
     color: white;
+    /* border: 5px solid red; */
 }
 
 /* ------------------------------- */

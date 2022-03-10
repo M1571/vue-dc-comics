@@ -155,6 +155,7 @@ export default {
             text-transform: uppercase;
 
             a {
+                // border: 5px solid red;
                 display: flex;
                 align-items: center;
                 height: 100%;
