@@ -9,7 +9,7 @@
 
         <section id="content-wrapper">
             <div class="container">
-                sasas
+                --> Content goes here 
             </div>
         </section>
 
@@ -48,6 +48,7 @@ export default {
 <style _lang_="scss" _scoped_>
 
 #content-wrapper {
+    /* border: 3px solid rgb(255, 145, 0); */
     background-color: #1C1C1C;
     color: white;
     /* border: 5px solid red; */
@@ -56,6 +57,7 @@ export default {
 /* ------------------------------- */
 
 #icons-wrapper {
+    /* border: 3px solid rgb(0, 255, 179); */
     background-color: #0282F9;
     color: white;
 }

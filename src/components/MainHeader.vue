@@ -127,6 +127,7 @@ export default {
     // color: #000012;
 
     .container {
+        // border: 3px solid rgb(255, 145, 0);
         display: flex;
         justify-content: space-between;
         min-height: 120px;
@@ -135,6 +136,7 @@ export default {
     // -------------------------------
 
     .logo {
+        // border: 3px solid rgb(0, 255, 55);
         align-self: center;
 
         img {
@@ -143,6 +145,7 @@ export default {
     }
 
     .main-nav {
+        // border: 3px solid rgb(255, 0, 179);
         display: flex;
         gap: 30px;
 
@@ -151,6 +154,7 @@ export default {
         }
 
         .nav-item {
+            // border: 3px solid rgb(0, 195, 255);
             font-weight: 800;
             text-transform: uppercase;
 
