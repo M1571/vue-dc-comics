@@ -14,8 +14,8 @@
               <div class="col">
                   <div class="col-list">
 
-                        <h4>DC Comics</h4>
-                        <ul>
+                        <h4 class="list_title">DC Comics</h4>
+                        <ul class="list_menu">
                             <li>link 1</li>
                             <li>link 2</li>
                             <li>link 3</li>
@@ -99,6 +99,18 @@ export default {
 
             .col {
                 width: calc(100% / 9);
+
+                col-list {
+                    @include widget;
+
+                    .list_title {
+                        color: white;
+                    }
+
+                    li {
+                        color: #959595;
+                    }
+                }
             }
         }
     }

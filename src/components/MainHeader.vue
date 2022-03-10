@@ -160,19 +160,19 @@ export default {
                 height: 100%;
             }
 
-            &.active, {
+            // .&.active, {
                 
-                a::after {
-                    background-color: #0282F9;
-                    content: '';
-                    display: block;
-                    height: 4px;
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
-                    right: 0;
-                }
-            }
+            //     a::after {
+            //         background-color: #0282F9;
+            //         content: '';
+            //         display: block;
+            //         height: 4px;
+            //         position: absolute;
+            //         left: 0;
+            //         bottom: 0;
+            //         right: 0;
+            //     }
+            // }
         }
     }
 }
