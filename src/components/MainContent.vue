@@ -15,17 +15,7 @@
 
         <!-- ------------------------------- -->
 
-        <section id="icons-wrapper">
-            <div class="container">
-                <ul>
-                    <li>DIGITAL COMICS</li>
-                    <li>DC MERCHANDISE</li>
-                    <li>SUBSCRIPTION</li>
-                    <li>COMIC SHOP LOCATOR</li>
-                    <li>DC POWER VISA</li>
-                </ul>
-            </div>
-        </section>
+        <ContentSection />
 
     </main>
 
@@ -36,8 +26,12 @@
 
 <script>
 
-export default {
+import ContentSection from './ContentSection.vue';
 
+export default {
+    components: {
+        ContentSection,
+    }
 };
 
 </script>
@@ -55,11 +49,5 @@ export default {
 }
 
 /* ------------------------------- */
-
-#icons-wrapper {
-    /* border: 3px solid rgb(0, 255, 179); */
-    background-color: #0282F9;
-    color: white;
-}
 
 </style>

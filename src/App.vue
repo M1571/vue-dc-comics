@@ -33,7 +33,7 @@ export default {
 
 // -------------------------------
 // CSS
-
+ 
 <style lang="scss">
 
 @import './assets/scss/mixins.scss';
@@ -42,7 +42,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 
 img {
   max-width: 100%;
