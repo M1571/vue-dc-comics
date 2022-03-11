@@ -78,19 +78,33 @@
 
       <section class="footer-bottom">
 
-          <button>
-              SIGN-UP NOW!
-          </button>
+          <div class="container-bottom">
 
-          <div>
-              <span>FOLLOW US</span>
-              <ul>
-                  <li>Facebook</li>
-                  <li>Twitter</li>
-                  <li>YouTube</li>
-                  <li>Pinterest</li>
-                  <li>Maps</li>
-              </ul>
+            <button class="sign-up">
+                SIGN-UP NOW!
+            </button>
+
+            <div class="follow-us">
+                <span>FOLLOW US</span>
+                <ul>
+                    <li>
+                        <img src="../assets/img/footer-facebook.png" alt="Facebook">
+                    </li>
+                    <li>
+                        <img src="../assets/img/footer-twitter.png" alt="Twitter">
+                    </li>
+                    <li>
+                        <img src="../assets/img/footer-youtube.png" alt="YouTube">
+                    </li>
+                    <li>
+                        <img src="../assets/img/footer-pinterest.png" alt="Pinterest">
+                    </li>
+                    <li>
+                        <img src="../assets/img/footer-periscope.png" alt="Maps">
+                    </li>
+                </ul>
+            </div>
+
           </div>
 
       </section>
@@ -126,12 +140,18 @@ export default {
     .footer-main {
         // border: 3px solid rgb(255, 145, 0);
         background: url('../assets/img/footer-bg.jpg');
-        padding: 40px 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .container {
         // border: 3px solid rgb(0, 132, 255);
+        padding: 40px 0;
         display: flex;
+        background: url('../assets/img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: right center;
     }
 
     .col {
@@ -162,6 +182,34 @@ export default {
     .footer-bottom {
         // border: 3px solid rgb(0, 255, 13);
         background-color: #303030;
+        padding: 20px 0;
+    }
+
+    .container-bottom {
+        @include container;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sign-up {
+        border: 3px solid #0086FE;
+        padding: 8px;
+        font-weight: 800;
+        background: transparent;
+        color: white;
+    }
+
+    .follow-us {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        color: #0086FE;
+        font-weight: 800;
+
+        ul {
+            display: contents;
+        }
     }
 
 }
