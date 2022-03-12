@@ -25,7 +25,7 @@ export default {
   components: {
     Header,
     Main,
-    Footer
+    Footer,
   },
 };
 
