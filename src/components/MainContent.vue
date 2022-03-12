@@ -12,6 +12,13 @@
         <!-- ------------------------------- -->
 
         <section id="content-wrapper">
+
+            <div class="container">
+                <button class="button btn-top">
+                    Current series
+                </button>
+            </div>
+
             <div class="container">
                 <div class="comics-grid">
 
@@ -21,7 +28,12 @@
                     :title="comic.series" />
 
                 </div> 
+
+                <button class="button btn-center">
+                    Load more
+                </button>
             </div>
+
         </section>
 
         <!-- ------------------------------- -->
@@ -156,6 +168,30 @@ export default {
 .grid-item {
     width: 15%;
     flex-grow: 1;
+}
+
+.button {
+    background-color: #0282F9;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-top {
+    font-size: 1.3em;
+    padding: 10px 20px;
+    transform: translate(-10%, -120%);
+}
+
+.btn-center {
+    font-size: 0.8em;
+    padding: 10px 40px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
 }
 
 /* ------------------------------- */
